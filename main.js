@@ -174,5 +174,5 @@
 //     console.log(profession+"person")
 // }
 
-// **Exercise 7**
+
 
