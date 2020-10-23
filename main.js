@@ -159,8 +159,6 @@
 
 // **Exercise 6**
 
-
-
 // let profession = "business"
 
 // let gender = prompt ("what is your gender ? ") // const gender = null 
@@ -173,6 +171,27 @@
 // }else{
 //     console.log(profession+"person")
 // }
+
+//**Exercise 7**
+
+// let boughtTesla = false
+// const yearOfTeslaPurchase = 2014
+// let isUSCitizen = true
+// let currentYear = 2018
+
+
+// if (boughtTesla && isUSCitizen){
+//     if ((currentYear - yearOfTeslaPurchase) >= 4 ){
+//         console.log("would you like an upgrade ?")
+//      } else{
+//          console.log("are you satisfied with your car?")
+//         }
+// }else if (boughtTesla){
+//     console.log("would you like to move to the us?")
+// }else {
+//     console.log("are you inerested in buying a tesla? ")
+// }
+
 
 
 
