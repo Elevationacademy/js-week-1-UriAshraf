@@ -184,14 +184,159 @@
 //     if ((currentYear - yearOfTeslaPurchase) >= 4 ){
 //         console.log("would you like an upgrade ?")
 //      } else{
-//          console.log("are you satisfied with your car?")
-//         }
-// }else if (boughtTesla){
-//     console.log("would you like to move to the us?")
-// }else {
-//     console.log("are you inerested in buying a tesla? ")
+    //          console.log("are you satisfied with your car?")
+    //         }
+    // }else if (boughtTesla){
+        //     console.log("would you like to move to the us?")
+        // }else {
+            //     console.log("are you inerested in buying a tesla? ")
+            // }
+            
+            
+ // ******Arrays ***********
+            
+//push ///unshift // splice // Exercise
+
+//  const genes = ["ACADM", "GLMN", "RLF", "AZIN2", "CRYZ"]
+
+//   let genesNew =[]
+
+//    genesNew.push(...genes)
+
+// genesNew[2]= genes[4] 
+// genesNew[4]= genes[2]
+
+// genesNew.splice(3,1)
+// genesNew.push("AZIN2","AZIN2")
+
+// genesNew.unshift("FXT")
+
+//**** Objects******
+
+//spot check1 //
+
+// const car = {
+//     color: "black",
+//     numWheels: 4,
+//     isFancy: false
+//   }
+//         if (car.isFancy){
+//            console.log("the "+car.color +" car has "+car.numWheels+" wheels ,it is fancy")
+//        }else {
+//         console.log("the "+car.color +" car has "+car.numWheels+" wheels ,it is not fancy")
+//        }
+ 
+//spot check2 ///
+
+// obj = {
+//     item : "key",
+//     toBeginning :false ,
+//     items: ["bottle","fhone", "bag"]   
 // }
 
+  
+//   if (obj["toBeginnig"]){
+//     obj["items"].unshift(obj.item)
+
+//   }else {
+//       obj.items.push(obj.item)
+//   }
+
+// console.log(obj.items)
+
+// spot check 3//
+
+//*** Objects****/
+
+// Exercise1 
+
+// let p1 = {
+//     name:"Robert" ,
+//     age : 25,
+//     city : "Nyc"
+// }
+// let p2 ={
+//   name :"Jill",
+//   age : 25,
+//   city: "Florida"
+// }
+
+// if (p1.age ==p2.age){
+//   if (p1.city==p2.city){
+//     console.log("Jill wanted to date Robert")
+//   }else{
+//     console.log("Jill wanted to date Robert , but couldn't")
+//   }
+// }
+
+// Exercise 2 
+
+// let myList =[
+//     {item: "pen", count:2},
+//     {item:"bottle",count :3}
+// ]
+
+// myList[0].item = "marker"
+//  myList.splice(1)
+
+//  console.log(myList)
+
+// // //Exercise 3 
+
+// let  myList2 =[
+//     {item:"glass", count: 2},
+//     {item:"charger",count: 1}
+// ]
+
+// myList.unshift(...myList2)
+
+// console.log(myList)
+
+//Exercise 4 
+
+// let library ={
+//   books:[
+//     {title:"the little prince",author :"Antoine de Saint"},
+//     {title:"lion king",author:"Justine Korman "}
+//   ]
+// }
+
+// myList.push(...library.books)
+
+// console.log(myList)
+
+//Exercise 5 
+ 
+// const reservations = {
+//   Bob: { claimed: false },
+//   Ted: { claimed: true }
+// }
+
+//  let name = prompt('Please enter the name for your reservation');
+//  let lowerCaseName = name.toLowerCase() 
+
+ 
+// if (lowerCaseName =="bob" ){
+//     if (!reservations.Bob.claimed){
+//           console.log("welcome "+lowerCaseName)
+//     }else {
+//          console.log("Hmm, someone claimed this reservation already")
+//   }  }
+// else if (lowerCaseName =="ted"){
+//         if (!reservations.Ted.claimed){
+//           console.log("welcome "+lowerCaseName)
+//         }else {
+//             console.log("Hmm, someone claimed this reservation already")
+//           }
+// } 
+// else {
+//        console.log("You have no reservation")
+       
+//          reservations[lowerCaseName] = {claimed: true}
+//      }
+//   ``
+//      console.log(reservations)
 
 
 
+ 
