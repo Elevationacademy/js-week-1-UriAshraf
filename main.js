@@ -231,7 +231,7 @@
 // obj = {
 //     item : "key",
 //     toBeginning :false ,
-//     items: ["bottle","phone", "bag"]   
+//     items: ["bottle","fhone", "bag"]   
 // }
 
   
@@ -333,9 +333,10 @@
 //        console.log("You have no reservation")
        
 //          reservations[lowerCaseName] = {claimed: true}
-
 //      }
 //   ``
 //      console.log(reservations)
 
 
+
+ 
